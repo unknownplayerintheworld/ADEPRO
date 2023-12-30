@@ -1,7 +1,7 @@
 # ADEPRO
 An alternative solution to traditional parking lots!
 
-- Dont forget create database in mysql to use this web app!
+* Dont forget create database in mysql to use this web app!
   
 - Username: lovantam
 - Password: vantam123
