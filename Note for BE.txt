@@ -1,0 +1,11 @@
+﻿1, Header sẽ kèm navbar cho Nhân viên hoặc Admin
+-> kiểm tra session là của admin ( hay employee) thì include header cho admin (hoặc nhân viên)
+
+2, chịu phân trang :3
+-> solved
+
+3, Giờ trong phần nhận trả
+-> Có cần thiết. Chỉ là trường thông tin được hiển thị tự động.
+
+4, nếu loại thẻ đã được quy định trong DB thì việc chọn loại thẻ lúc nhận xe có tác dụng j?
+-> Lúc nhận trả không cần chọn loại thẻ. Chỉ là trường thông tin được hiển thị tự động. 

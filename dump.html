@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="10" /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="dumbStyles.css" />
+    <title>ADEPRO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      .feedback {
+        position: fixed;
+        bottom: 5vh;
+        right: 3vw;
+        min-width: 50px;
+        min-height: 50px;
+        border-radius: 50px;
+        /* display: flex; */
+      }
+      .feedback i {
+        font-size: 1.5em;
+        transform: translate(0%, 20%);
+      }
+    </style>
+    <header>
+      <div class="left">
+        <a href="About-us.php">
+          <img class="Logo" src="./img/smol logo.png" alt="Logo" />
+          <div class="logo-name-wapper">
+            <h1 id="pageName" class="header-text">ADEPRO</h1>
+            <h6>Parking Management System</h6>
+          </div>
+        </a>
+      </div>
+
+      <div class="right">
+        <div class="right-navBar">
+          <a href="dash-board.php" class="header-text">Quản lý</a>
+
+          <div class="border"></div>
+
+          <a href="Log-in.php" class="header-text">Đăng nhập</a>
+        </div>
+        <div id="pageNameDes">Hệ thống quản lý phương tiện tích hợp</div>
+      </div>
+    </header>
+    <h3>chọn khu quản lý</h3>
+    <main>
+      <div class="Areas">
+        <h5>Khu cho xe may</h5>
+        <div class="Area-list">
+          <a class="area-link" href="">
+            <div class="Area">
+              <i class="fa area-icon fa-motorcycle"></i>
+              <div class="Area-details">
+                <h6>area name</h6>
+                <p>Số xe đã nhận: 9/10</p>
+              </div>
+            </div>
+          </a>
+          <a class="area-link" href="">
+            <div class="Area">
+              <i class="fa area-icon fa-motorcycle"></i>
+              <div class="Area-details">
+                <h6>area name</h6>
+                <p>Số xe đã nhận: 9/10</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="Areas">
+        <h5>khu cho o to</h5>
+        <div class="Area-list">
+          <a class="area-link" href="">
+            <div class="Area">
+              <i class="fa area-icon fa-car"></i>
+              <div class="Area-details">
+                <h6>area name</h6>
+                <p>Số xe đã nhận: 9/10</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="bg-img-wapper"></div> -->
+
+      <!-- <div class="search-bar-wapper">
+        <form class="search-bar" action="">
+          <input
+            type="text"
+            placeholder="Nhập vào biển số hoặc ID thẻ"
+            name="search"
+          />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div> -->
+    </main>
+
+    <a
+      class="btn btn-danger feedback"
+      href="feedback.php"
+      title="Gửi feedback"
+      target="_blank"
+      ><i class="fas fa-light fa-comment-dots fa-flip-horizontal"></i
+    ></a>
+    <!-- <span class="tooltiptext">Bạn gặp bọ? Báo cáo cho quản lý thôi</span> -->
+
+    <footer>
+      <div class="row">
+        <div class="footer-logo-side">
+          <a class="nav-brand" href="#">
+            <img class="footer-logo" src="./img/footer logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="footer-quick-link">
+          <h3>Mạng xã hội</h3>
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-quick-link">
+          <h3>Thông tin chung</h3>
+          <a target="_blank" href="about-us.php">
+            <p>About us</p>
+          </a>
+          <a target="_blank" href="contact-us.php">
+            <p>Liên hệ</p>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy;2021 <a href="# ">All rights reserved</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

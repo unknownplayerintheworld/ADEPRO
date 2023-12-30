@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <style>
+        #dropdown-test-one {
+            position: relative;
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+        
+        div#dropdown-test {
+            padding-bottom: 40px;
+        }
+        
+        .dropdown-list-one {
+            position: relative;
+            display: block;
+            width: 800px;
+            height: 400px;
+            background-color: black;
+            color: aliceblue;
+            border: 3px solid rgb(226, 147, 0);
+            border-radius: 5px;
+            margin-left: 25%;
+        }
+        
+        .dropdown-list-name-one {
+            position: relative;
+            text-align: center;
+            font-size: 30px;
+            background: linear-gradient(to top, #FFAE46, #FFF050);
+            text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .dropdown-time-one {
+            padding-top: 5px;
+            padding-bottom: 20px;
+            margin-left: 200px;
+            font-size: 20px;
+        }
+        
+        .dropdown-button-one {
+            cursor: pointer;
+            color: #fff;
+            background-color: rgb(226, 147, 0);
+            font-size: 20px;
+            width: 100px;
+            height: 30px;
+            outline: none;
+            border: 2px solid white;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            position: relative;
+        }
+        
+        .dropdown-list-enter-out-one {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .dropdown-list-enter-one {
+            width: 30%;
+            height: 100%;
+            background-color: #000;
+            text-align: center;
+            padding-bottom: 20px;
+            border-radius: 5px;
+            border: 2px solid rgb(226, 147, 0);
+        }
+    </style>
+    <div id="dropdown-test-one">
+        <div class="dropdown-list-one">
+            <h1 class="dropdown-list-name-one">Báo cáo doanh thu</h1>
+            <div class="dropdown-time-one">
+                Từ
+                <input type="date" class="dropdown-time-input-one"> Đến
+                <input type="date" class="dropdown-time-input-one">
+                <button class="dropdown-button-one">Tìm</button>
+                <button class="dropdown-button-one">Back</button>
+            </div>
+            <div class="dropdown-list-enter-out-one">
+                <div class="dropdown-list-enter-one">
+                    <div>
+                        <h3>Ô tô</h3>
+                        <input type="number" value="0" class="dropdown-list-enter-car-one">
+                    </div>
+                    <div>
+                        <h3>Xe máy</h3>
+                        <input type="number" value="0" class="dropdown-list-enter-moto-one">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

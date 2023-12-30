@@ -1,0 +1,53 @@
+/* main */
+h3,
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.Areas {
+  width: 40%;
+  height: 500px;
+  /* background-color: rgb(147, 77, 77); */
+  margin: 10px;
+}
+.Area {
+  width: 90%;
+  height: 10%;
+  background-color: rgb(86, 129, 167);
+  border-radius: 10px;
+  margin: auto;
+}
+.area-icon {
+  background-color: #ffffff;
+  font-size: 2rem;
+  padding: 5px;
+  margin: 10px 10px;
+  display: inline-block;
+  position: relative;
+  transform: translateY(-20%);
+  border-radius: 10px;
+}
+.area-link {
+  color: unset;
+  width: fit-content;
+  text-decoration: none !important;
+  margin: auto 10px;
+}
+.area-link:hover {
+  color: unset;
+  text-decoration: none !important;
+}
+.Area-details {
+  display: inline-block;
+  margin: auto 20px;
+}
+.Area-details h6,
+.Area-details p {
+  margin: 10px auto;
+}
